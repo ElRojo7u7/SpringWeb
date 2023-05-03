@@ -1,0 +1,2029 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.2.0-web/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon.webp"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante</title>
+  </head>
+  <body>
+    <!-- INICIO DE ENCABEZADO -->
+    <div>
+      <section class="tiny-menu">
+        <svg
+          class="d-block p-abs"
+          viewBox="0 0 1440 320"
+          width="100%"
+          preserveAspectRatio="none"
+          height="300"
+        >
+          <path
+            fill="#e4e4e4"
+            fill-opacity="1"
+            d="M0,64L40,90.7C80,117,160,171,240,192C320,213,400,203,480,176C560,149,640,107,720,117.3C800,128,880,192,960,213.3C1040,235,1120,213,1200,186.7C1280,160,1360,128,1400,112L1440,96L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+          ></path>
+        </svg>
+        <div>
+          <h3>
+            <a href="#platos-fuertes" class="decoration-none blue-color"
+              >Platos fuertes</a
+            >
+          </h3>
+          <div class="flex:end">
+            <img
+              src="https://via.placeholder.com/160x150"
+              alt="Imagen de navbar"
+              class="full-width d-block"
+            />
+          </div>
+          <p
+            class="field-desc xs-sc:d-none xm-sc:d-block full-width bg-grey:a(0.8) my-none py-sm"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div>
+          <h3>
+            <a href="#desayunos" class="decoration-none blue-color"
+              >Desayunos</a
+            >
+          </h3>
+          <div class="flex:end">
+            <img
+              src="https://via.placeholder.com/160x150"
+              alt="Imagen de navbar"
+              class="full-width d-block"
+            />
+          </div>
+          <p
+            class="field-desc xs-sc:d-none xm-sc:d-block full-width bg-grey:a(0.8) my-none py-sm"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div>
+          <h3>
+            <a href="#packs" class="decoration-none blue-color">Paquetes</a>
+          </h3>
+          <div class="flex:end">
+            <img
+              src="https://via.placeholder.com/160x150"
+              alt="Imagen de navbar"
+              class="full-width d-block"
+            />
+          </div>
+          <p
+            class="field-desc xs-sc:d-none xm-sc:d-block full-width bg-grey:a(0.8) my-none py-sm"
+          >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div>
+          <h3>
+            <a href="#postres" class="decoration-none blue-color">Postres</a>
+          </h3>
+          <div class="flex:end">
+            <img
+              src="https://via.placeholder.com/160x150"
+              alt="Imagen de navbar"
+              class="full-width d-block"
+            />
+          </div>
+          <p
+            class="field-desc xs-sc:d-none xm-sc:d-block full-width bg-grey:a(0.8) my-none py-sm"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div>
+          <h3>
+            <a href="#bebidas" class="decoration-none blue-color">Bebidas</a>
+          </h3>
+          <div class="flex:end">
+            <img
+              src="https://via.placeholder.com/160x150"
+              alt="Imagen de navbar"
+              class="full-width d-block"
+            />
+          </div>
+          <p
+            class="field-desc xs-sc:d-none xm-sc:d-block full-width bg-grey:a(0.8) my-none py-sm"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div>
+          <h3>
+            <a href="#promos" class="decoration-none blue-color">Promociones</a>
+          </h3>
+          <div class="flex:end">
+            <img
+              src="https://via.placeholder.com/160x150"
+              alt="Imagen de navbar"
+              class="full-width d-block"
+            />
+          </div>
+          <p
+            class="field-desc xs-sc:d-none xm-sc:d-block full-width bg-grey:a(0.8) my-none py-sm"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+      </section>
+    </div>
+    <!-- FIN DE ENCABEZADO -->
+
+    <!-- INICIO DE ASIDE (métodos de pago) -->
+    <div class="content-sec">
+      <aside class="content-aside">
+        <h3 class="text-center">
+          Los siguientes métodos de pago están permitidos
+        </h3>
+        <ul class="standar-ul-aside" type="none">
+          <li>
+            <i class="fa-brands fa-cc-mastercard fa-hover-color"></i>
+            <p>Master card</p>
+          </li>
+          <li>
+            <i class="fa-brands fa-cc-visa fa-hover-color"></i>
+            <p>Visa</p>
+          </li>
+          <li>
+            <i class="fa-brands fa-cc-amex fa-hover-color"></i>
+            <p>American express</p>
+          </li>
+          <li>
+            <i
+              class="fa-sharp fa-solid fa-money-bill-1-wave fa-hover-color"
+            ></i>
+            <p>Efectivo</p>
+          </li>
+          <li>
+            <i class="far fa-handshake fa-hover-color"></i>
+            <p>Mercado pago</p>
+          </li>
+        </ul>
+      </aside>
+      <!-- FIN DE ASIDE -->
+
+      <!-- INICIO SECCIÓN DE -PLATOS FUERTES- -->
+      <section class="plato-fuerte mx-a">
+        <h2 id="platos-fuertes" class="title-component">Platos fuertes</h2>
+        <!-- INICIO DE COMPONENTE -->
+        <div class="component-container">
+          <div>
+            <div>
+              <small class="price-tag">$170 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Plato gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+
+        <!-- INICIO DE COMPONENTE -->
+        <div class="expensive green-score component-container">
+          <div>
+            <div>
+              <small class="expensive price-tag">$400 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Plato gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag green-score">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+
+        <!-- INICIO DE COMPONETNE -->
+        <div class="cheap red-score component-container">
+          <div>
+            <div>
+              <small class="price-tag cheap">$70 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Plato gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag red-score">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+      </section>
+      <!-- FIN DE SECCIÓN -->
+    </div>
+    <!-- INICIO DE SECCIÓN DE DESAYUNOS -->
+    <div class="content-sec reverse-flex">
+      <!-- INICIO DE ASIDE -->
+      <aside class="content-aside second-aside">
+        <!-- Necesitaba algo -->
+        <h3 class="text-center">Necesitaba de algo más?</h3>
+        <p>
+          Llame a uno de nuestros meseros mediante el siguiente menú y de
+          inmediato le atenderemos
+        </p>
+        <form class="second-aside-input-cont">
+          <div>
+            <label for="mesa">No. de mesa</label>
+            <input
+              type="number"
+              name="mesa"
+              class="input-form"
+              placeholder="72"
+            />
+          </div>
+          <div>
+            <label for="nombre">Nombre</label>
+            <input
+              type="text"
+              name="nombre"
+              placeholder="Fabian Cortéz"
+              class="input-form"
+            />
+          </div>
+          <input
+            type="submit"
+            value="Llamar mesero"
+            class="submit-style full-width py-sm bg-grey:a(0.8)"
+          />
+        </form>
+      </aside>
+      <!-- FIN DE ASIDE -->
+      <!-- INICIO DE SECCIÓN (componentes) -->
+      <section class="desayunos mx-a">
+        <h2 id="desayunos" class="title-component">Desayunos</h2>
+        <!-- INICIO DE COMPONENTE -->
+        <div class="cheap green-score component-container">
+          <div>
+            <div>
+              <small class="price-tag cheap">$75 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Desayuno gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag green-score">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star-half"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+        <!-- INICIO DE COMPONENTE -->
+        <div class="expensive component-container">
+          <div>
+            <div>
+              <small class="price-tag expensive">$320 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Desayuno gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star-half"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+        <!-- INICIO DE COMPONENTE -->
+        <div class="red-score component-container">
+          <div>
+            <div>
+              <small class="price-tag">$150 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Desayuno gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag red-score">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star-half"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+      </section>
+      <!-- FIN DE SECCIÓN -->
+    </div>
+    <!-- INICIO DE SECCIÓN (paquetes) -->
+    <div class="content-sec">
+      <!-- INICIO DE ASIDE -->
+      <aside class="content-aside">
+        <!-- Redes sociales -->
+        <h3 class="text-center">Síguenos en nuestras redes sociales!!</h3>
+        <ul type="none" class="standar-ul-aside">
+          <li>
+            <i class="fa-brands fa-facebook fa-hover-color"></i>
+            <p>Facebook</p>
+          </li>
+          <li>
+            <i class="fa-brands fa-instagram fa-hover-color"></i>
+            <p>Instagram</p>
+          </li>
+          <li>
+            <i class="fa-brands fa-tiktok fa-hover-color"></i>
+            <p>Tiktok</p>
+          </li>
+          <li>
+            <i class="fa-brands fa-twitter fa-hover-color"></i>
+            <p>Twitter</p>
+          </li>
+        </ul>
+      </aside>
+      <!-- FIN DE ASIDE -->
+      <!-- INICIO DE SECCIÓN (componentes) -->
+      <section class="paquetes mx-a">
+        <h2 id="packs" class="title-component">Paquetes</h2>
+        <!-- INICIO DE COMPONENTE -->
+        <div class="component-container">
+          <div>
+            <div>
+              <small class="price-tag">$170 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Paquete gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+        <!-- INICIO DE COMPONENTE -->
+        <div class="expensive green-score component-container">
+          <div>
+            <div>
+              <small class="expensive price-tag">$400 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Paquete gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag green-score">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+        <!-- INICIO DE COMPONENTE -->
+        <div class="cheap red-score component-container">
+          <div>
+            <div>
+              <small class="price-tag cheap">$90 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Paquete gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag red-score">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+      </section>
+      <!-- FIN DE SECCIÓN -->
+    </div>
+    <!-- INICIO DE SECCIÓN ( postres ) -->
+    <div class="content-sec">
+      <!-- INICIO DE SECCIÓN ( componentes ) -->
+      <section class="postres mx-a">
+        <h2 id="postres" class="title-component">Postres</h2>
+        <!-- INICIO DE COMPONENTE -->
+        <div class="cheap green-score component-container">
+          <div>
+            <div>
+              <small class="price-tag cheap">$75 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Caramelo gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag green-score">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star-half"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+        <!-- INICIO DE COMPONENTE -->
+        <div class="expensive component-container">
+          <div>
+            <div>
+              <small class="price-tag expensive">$320 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Pastel gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star-half"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+        <!-- INICIO DE COMPONENTE -->
+        <div class="red-score component-container">
+          <div>
+            <div>
+              <small class="price-tag">$150 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Pay gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag red-score">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star-half"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+      </section>
+      <!-- FIN DE SECCIÓN -->
+    </div>
+    <!-- INICIO DE SECCIÓN ( bebidas ) -->
+    <div class="content-sec">
+      <!-- INICIO DE SECCIÓN ( componentes ) -->
+      <section class="bebidas mx-a">
+        <h2 id="bebidas" class="title-component">Bebidas</h2>
+        <!-- INICIO DE COMPONENTE -->
+        <div class="component-container">
+          <div>
+            <div>
+              <small class="price-tag">$50 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Café gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+        <!-- INICIO DE COMPONENTE -->
+        <div class="expensive green-score component-container">
+          <div>
+            <div>
+              <small class="expensive price-tag">$100 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Café no tan gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag green-score">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+        <!-- INICIO DE COMPONENTE -->
+        <div class="cheap red-score component-container">
+          <div>
+            <div>
+              <small class="price-tag cheap">$20 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Orchata gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag red-score">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+      </section>
+      <!-- FIN DE SECCIÓN -->
+    </div>
+    <!-- INICIO DE SECCIÓN ( galería ) -->
+    <div class="content-sec">
+      <!-- INICIO DE SECCIÓN ( componentes ) -->
+      <section class="mx-a">
+        <h2 class="title-component">Nuestra galería</h2>
+        <!-- INICIO DE COMPONENTES -->
+        <div class="full-width">
+          <div class="flex:space-between">
+            <!-- INICIO DE COMPONENTE -->
+            <div class="w:270px mx-a box-style mb-md">
+              <h2 class="text-center blue-color my-sm">Título</h2>
+              <div class="flex:end flex-with:align-items-end pointer">
+                <img
+                  src="https://via.placeholder.com/250x180"
+                  alt="Imagen de galería"
+                  class="d-block full-width"
+                />
+                <div class="score-tag">
+                  <small>10/feb/2021</small>
+                </div>
+              </div>
+              <p class="px-sm bg-grey:a(0.8) my-none py-sm text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                saepe atque possimus dicta doloribus assumenda, similique, quia,
+                unde officiis sequi esse dolor. Est velit cum voluptate modi
+                labore voluptatibus! Voluptatum.
+              </p>
+            </div>
+            <!-- FIN DE COMPONENTE -->
+            <!-- INICIO DE COMPONENTE -->
+            <div class="w:270px mx-a box-style mb-md">
+              <h2 class="text-center blue-color my-sm">Título</h2>
+              <div class="flex:end flex-with:align-items-end pointer">
+                <img
+                  src="https://via.placeholder.com/250x180"
+                  alt="Imagen de galería"
+                  class="d-block full-width"
+                />
+                <div class="score-tag">
+                  <small>10/feb/2021</small>
+                </div>
+              </div>
+              <p class="px-sm bg-grey:a(0.8) my-none py-sm text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                saepe atque possimus dicta doloribus assumenda, similique, quia,
+                unde officiis sequi esse dolor. Est velit cum voluptate modi
+                labore voluptatibus! Voluptatum.
+              </p>
+            </div>
+            <!-- FIN DE COMPONENTE -->
+            <!-- INICIO DE COMPONENTE -->
+            <div class="w:270px mx-a box-style mb-md">
+              <h2 class="text-center blue-color my-sm">Título</h2>
+              <div class="flex:end flex-with:align-items-end pointer">
+                <img
+                  src="https://via.placeholder.com/250x180"
+                  alt="Imagen de galería"
+                  class="d-block full-width"
+                />
+                <div class="score-tag">
+                  <small>10/feb/2021</small>
+                </div>
+              </div>
+              <p class="px-sm bg-grey:a(0.8) my-none py-sm text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                saepe atque possimus dicta doloribus assumenda, similique, quia,
+                unde officiis sequi esse dolor. Est velit cum voluptate modi
+                labore voluptatibus! Voluptatum.
+              </p>
+            </div>
+            <!-- FIN DE COMPONENTE -->
+            <!-- INICIO DE COMPONENTE -->
+            <div class="w:270px mx-a box-style mb-md">
+              <h2 class="text-center blue-color my-sm">Título</h2>
+              <div class="flex:end flex-with:align-items-end pointer">
+                <img
+                  src="https://via.placeholder.com/250x180"
+                  alt="Imagen de galería"
+                  class="d-block full-width"
+                />
+                <div class="score-tag">
+                  <small>10/feb/2021</small>
+                </div>
+              </div>
+              <p class="px-sm bg-grey:a(0.8) my-none py-sm text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                saepe atque possimus dicta doloribus assumenda, similique, quia,
+                unde officiis sequi esse dolor. Est velit cum voluptate modi
+                labore voluptatibus! Voluptatum.
+              </p>
+            </div>
+            <!-- FIN DE COMPONENTE -->
+            <!-- INICIO DE COMPONENTE -->
+            <div class="w:270px mx-a box-style mb-md">
+              <h2 class="text-center blue-color my-sm">Título</h2>
+              <div class="flex:end flex-with:align-items-end pointer">
+                <img
+                  src="https://via.placeholder.com/250x180"
+                  alt="Imagen de galería"
+                  class="d-block full-width"
+                />
+                <div class="score-tag">
+                  <small>10/feb/2021</small>
+                </div>
+              </div>
+              <p class="px-sm bg-grey:a(0.8) my-none py-sm text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                saepe atque possimus dicta doloribus assumenda, similique, quia,
+                unde officiis sequi esse dolor. Est velit cum voluptate modi
+                labore voluptatibus! Voluptatum.
+              </p>
+            </div>
+            <!-- INICIO DE COMPONENTE -->
+            <!-- FIN DE COMPONENTE -->
+            <div class="w:270px mx-a box-style mb-md">
+              <h2 class="text-center blue-color my-sm">Título</h2>
+              <div class="flex:end flex-with:align-items-end pointer">
+                <img
+                  src="https://via.placeholder.com/250x180"
+                  alt="Imagen de galería"
+                  class="d-block full-width"
+                />
+                <div class="score-tag">
+                  <small>10/feb/2021</small>
+                </div>
+              </div>
+              <p class="px-sm bg-grey:a(0.8) my-none py-sm text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                saepe atque possimus dicta doloribus assumenda, similique, quia,
+                unde officiis sequi esse dolor. Est velit cum voluptate modi
+                labore voluptatibus! Voluptatum.
+              </p>
+            </div>
+            <!-- FIN DE COMPONENTE -->
+            <!-- INICIO DE COMPONENTE -->
+            <div class="w:270px mx-a box-style mb-md">
+              <h2 class="text-center blue-color my-sm">Título</h2>
+              <div class="flex:end flex-with:align-items-end pointer">
+                <img
+                  src="https://via.placeholder.com/250x180"
+                  alt="Imagen de galería"
+                  class="d-block full-width"
+                />
+                <div class="score-tag">
+                  <small>10/feb/2021</small>
+                </div>
+              </div>
+              <p class="px-sm bg-grey:a(0.8) my-none py-sm text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                saepe atque possimus dicta doloribus assumenda, similique, quia,
+                unde officiis sequi esse dolor. Est velit cum voluptate modi
+                labore voluptatibus! Voluptatum.
+              </p>
+            </div>
+            <!-- FIN DE COMPONENTE -->
+            <!-- INICIO DE COMPONENTE -->
+            <div class="w:270px mx-a box-style mb-md">
+              <h2 class="text-center blue-color my-sm">Título</h2>
+              <div class="flex:end flex-with:align-items-end pointer">
+                <img
+                  src="https://via.placeholder.com/250x180"
+                  alt="Imagen de galería"
+                  class="d-block full-width"
+                />
+                <div class="score-tag">
+                  <small>10/feb/2021</small>
+                </div>
+              </div>
+              <p class="px-sm bg-grey:a(0.8) my-none py-sm text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                saepe atque possimus dicta doloribus assumenda, similique, quia,
+                unde officiis sequi esse dolor. Est velit cum voluptate modi
+                labore voluptatibus! Voluptatum.
+              </p>
+            </div>
+            <!-- FIN DE COMPONENTE -->
+          </div>
+        </div>
+      </section>
+      <!-- FIN DE COMPONENTE -->
+    </div>
+    <!-- FIN DE SECCIÓN -->
+    <!-- INICIO DE SECCIÓN ( promociones ) -->
+    <div class="content-sec">
+      <!-- INICIO SECCIÓN ( componentes ) -->
+      <section class="mx-a">
+        <h2 id="promos" class="title-component">Nuestras promociones</h2>
+        <!-- INICIO DE COMPONENTE -->
+        <div class="cheap green-score component-container">
+          <div>
+            <div>
+              <small class="price-tag cheap">$75 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Promo gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag green-score">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star-half"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+        <!-- INICIO DE COMPONENTE -->
+        <div class="expensive component-container">
+          <div>
+            <div>
+              <small class="price-tag expensive">$320 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Promo gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star-half"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+        <!-- INICIO DE COMPONENTE -->
+        <div class="red-score component-container">
+          <div>
+            <div>
+              <small class="price-tag">$150 MXN</small>
+            </div>
+            <div>
+              <h2 class="product-title">Promo gucci</h2>
+            </div>
+          </div>
+          <div>
+            <div class="product-content">
+              <div class="product-desc-cont">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur, et porro tenetur veritatis, molestias
+                  nihil numquam sapiente ullam cupiditate mollitia a, omnis
+                  corporis impedit natus sequi consequuntur id voluptas.
+                </p>
+              </div>
+              <div>
+                <p>Este pedido incluye...</p>
+                <ul type="none">
+                  <li>
+                    <p>Papas gucci</p>
+                    <p><b>x2</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Bebida gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sopa gucci</p>
+                    <p><b>x1</b></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div>
+                <p>Información nutrimental</p>
+                <ul type="none">
+                  <li>
+                    <p>Colesterol</p>
+                    <p><small>3g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Sodio</p>
+                    <p><small>4.56g</small></p>
+                  </li>
+                  <hr />
+                  <li>
+                    <p>Proteína</p>
+                    <p><small>6.45g</small></p>
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="score-tag red-score">
+                <small
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star-half"></i
+                ></small>
+              </div>
+              <img
+                src="https://via.placeholder.com/250x180"
+                alt="Imagen random"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE COMPONENTE -->
+      </section>
+      <!-- FIN DE SECCIÓN -->
+    </div>
+    <!-- FIN DE SECCIÓN -->
+    <!-- INICIO DE FOOTER -->
+    <footer class="footer">
+      <!-- INICIO DE WAVES -->
+      <div class="waves">
+        <svg
+          viewBox="0 0 1440 320"
+          width="100%"
+          preserveAspectRatio="none"
+          height="250"
+        >
+          <path
+            class="w-1"
+            fill="#7b1fa2"
+            fill-opacity="0.1"
+            d="M0,160L20,149.3C40,139,80,117,120,117.3C160,117,200,139,240,170.7C280,203,320,245,360,245.3C400,245,440,203,480,197.3C520,192,560,224,600,229.3C640,235,680,213,720,192C760,171,800,149,840,154.7C880,160,920,192,960,197.3C1000,203,1040,181,1080,181.3C1120,181,1160,203,1200,224C1240,245,1280,267,1320,266.7C1360,267,1400,245,1420,234.7L1440,224L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
+          ></path>
+          <path
+            class="w-2"
+            fill="#7b1fa2"
+            fill-opacity="0.1"
+            d="M0,160L20,165.3C40,171,80,181,120,208C160,235,200,277,240,277.3C280,277,320,235,360,213.3C400,192,440,192,480,202.7C520,213,560,235,600,229.3C640,224,680,192,720,170.7C760,149,800,139,840,133.3C880,128,920,128,960,138.7C1000,149,1040,171,1080,181.3C1120,192,1160,192,1200,202.7C1240,213,1280,235,1320,202.7C1360,171,1400,85,1420,42.7L1440,0L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
+          ></path>
+          <path
+            class="w-3"
+            fill="#7b1fa2"
+            fill-opacity="0.1"
+            d="M0,128L20,106.7C40,85,80,43,120,58.7C160,75,200,149,240,192C280,235,320,245,360,213.3C400,181,440,107,480,106.7C520,107,560,181,600,218.7C640,256,680,256,720,213.3C760,171,800,85,840,80C880,75,920,149,960,192C1000,235,1040,245,1080,208C1120,171,1160,85,1200,53.3C1240,21,1280,43,1320,64C1360,85,1400,107,1420,117.3L1440,128L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
+          ></path>
+          <path
+            class="w-4"
+            fill="#7b1fa2"
+            fill-opacity="0.1"
+            d="M0,32L20,69.3C40,107,80,181,120,218.7C160,256,200,256,240,213.3C280,171,320,85,360,74.7C400,64,440,128,480,154.7C520,181,560,171,600,186.7C640,203,680,245,720,250.7C760,256,800,224,840,218.7C880,213,920,235,960,240C1000,245,1040,235,1080,202.7C1120,171,1160,117,1200,133.3C1240,149,1280,235,1320,229.3C1360,224,1400,128,1420,80L1440,32L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+      <!-- FIN DE WAVES -->
+      <!-- INICIO DE CONTENIDO -->
+      <div class="footer-content raise full-width">
+        <!-- POLÍTICA DE PRIVACIDAD -->
+        <div class="privacy mx-a mt-md">
+          <h3>Política de privacidad</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+            provident aut ipsum nam a at, dolores voluptatum doloremque sed
+            minus tempora nostrum suscipit mollitia laborum. Odio, recusandae!
+            Ex, doloribus necessitatibus! Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Id, officiis sint itaque dolor nobis
+            quisquam! Eos, omnis iusto recusandae odit doloremque eaque
+            veritatis dolorem cupiditate eius quae, vel a itaque.
+          </p>
+        </div>
+        <!-- FIN DE POLÍTICA DE PRIVACIDAD -->
+        <!-- INICIO DE MAPA DE GOOGLE -->
+        <div class="footer-map mx-a mt-md">
+          <h2 class="text-center my-sm">Encuentranos en</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.483121569023!2d-99.14174568455947!3d19.434726386883167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92b6c418555%3A0x792f42a09d6ca63a!2sCaf%C3%A9%20La%20Pagoda!5e0!3m2!1ses-419!2smx!4v1666736461531!5m2!1ses-419!2smx"
+            width="250"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <!-- FIN DE MAPA DE GOOGLE -->
+        <!-- INICIO DE INFO -->
+        <div class="student-desc mx-a mt-md">
+          <div class="student-info mx-a">
+            <h3>Info del estudiante</h3>
+            <p class="my-md"><b>Nombre:</b> <span th:text="${student.name}"></span></p>
+            <p class="my-md"><b>Materia:</b> <span th:text="${student.subject}"></span></p>
+            <p class="my-md">
+              <b>Catedrático:</b> <span th:text="${student.teacherName}"></span>
+            </p>
+            <p class="my-md"><b>Grupo:</b> <span th:text="${student.group}"></span></p>
+          </div>
+          <div class="calendar mx-a">
+            <h3 class="text-center my-md">Fecha de desarrollo</h3>
+            <div class="calendar-style">
+              <h4 class="text-center my-sm">Octubre 2022</h4>
+              <!-- INICIO CALENDARIO EN TABLA -->
+              <table class="caledar-table">
+                <tr>
+                  <th>dom.</th>
+                  <th>lun.</th>
+                  <th>mar.</th>
+                  <th>mie.</th>
+                  <th>jue.</th>
+                  <th>vie.</th>
+                  <th>sab.</th>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>13</td>
+                  <td>14</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>17</td>
+                  <td>18</td>
+                  <td>19</td>
+                  <td>20</td>
+                  <td>21</td>
+                  <td>22</td>
+                </tr>
+                <tr>
+                  <td>23</td>
+                  <td>24</td>
+                  <td class="bold-field">25</td>
+                  <td>26</td>
+                  <td>27</td>
+                  <td>28</td>
+                  <td>29</td>
+                </tr>
+                <tr>
+                  <td>30</td>
+                  <td>31</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </table>
+              <!-- FIN DE TABLA EN CALENDARIO -->
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE INFO -->
+      </div>
+      <!-- FIN DE CONTENIDO -->
+      <div class="full-width raise text-center">
+        <!-- EQUISDE -->
+        <small>Todos los precios incluyen IVA</small>
+      </div>
+    </footer>
+  </body>
+</html>
